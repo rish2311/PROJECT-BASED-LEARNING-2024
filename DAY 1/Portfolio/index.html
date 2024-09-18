@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website</title>
+
+    <link rel = "stylesheet" href="style.css" />
+    <link href = "https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel = "stylesheet"/>
+
+<!-- this is a comment in HTML -->
+</head>
+<body>
+
+    <!--Header Section-->
+
+    <header class = "header">
+        <a href = "#home" class = "logo">Rishabh
+            <span>Mehrotra</span>
+        </a>
+
+        <i class="bx bx-menu" id = "menu-icon"></i>
+
+        <nav class="navbar">
+            <a href = "#home">Home</a>
+            <a href = "#about">About</a>
+            <a href = "#services">Services</a>
+            <a href = "#contact">Contact</a>
+    
+        </nav>
+</header>
+
+<!--Home Section-->
+<!--Section.home#Home se niche wala line create hoga-->
+<section class="home" id="Home">
+
+    <!--.divhome-content se niche wala line create hoga-->
+    <div class="div-home-content">
+        <h1>Hi, It's <span>Rishabh</span></h1>
+        <h3>I'm a <span>Frontend Developer</span></h3>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Modi magni fuga ea exercitationem eos fugit incidunt recusandae minus. Provident distinctio sunt eveniet iste, itaque dolores ex beatae eius ipsam minima.</p>
+
+        <div class="social-icons">
+            <a href="#">
+                <i class="bx bxl-github"></i>
+            </a>
+            <a href = "#">
+                <i class = "bx bxl-linkedin-square"></i>
+            </a>
+            <a href="#">
+                <i class="bx bxl-instagram-alt"></i>
+            </a>
+            <a href="#">
+                <i class="bx bxl-twitter"></i>
+            </a>
+        </div>
+
+        <div class = "btn-group">
+            <a href="#" class="btn">Hire</a>
+            <a href="#contact" class="btn">contact</a>
+        </div>
+    </div>
+
+    <!--.home-img se niche wala line create hoga-->
+    <div class="home-img">
+        <img src="image.jpg" alt="">
+    </div>
+</section>
+
+<!--Home Section is completed Here. About Section we will create now.-->
+<!--Section.about#about se niche wala line create hoga-->
+<section class="about" id="about">
+
+    <div class="about-img">
+        <img src="image.jpg" alt="">
+    </div>
+
+    <div class="about-content">
+        <h2>About <span>Me</span></h2>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Obcaecati, quas vel. Error, voluptatem accusantium nam atque magnam incidunt dolorum inventore rem nesciunt velit debitis libero consequatur? Recusandae, quae autem. Debitis?</p>
+        <a href="#" class-="btn"></a>
+    </div>
+</section>
+<!--This is the end of about section-->
+
+<!--Services Section starts here-->
+<!--class.services#services se niche wala line create hoga-->
+<section class="services" id="services">
+    <h2 class="heading">Services</h2>
+
+    <div class="services-container">
+
+        <!-- .service-box se div create hua hai niche wala-->
+        <div class="service-box">
+        <div class = "service-info">
+
+            <!--To create an icon-->
+            <i class="bx bxs-devices"></i>
+            <h4>Mobile Development</h4>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Distinctio, provident!</p>
+        </div>
+        </div>
+
+
+
+        <div class="service-box">
+            <div class = "service-info">
+    
+                <!--To create an icon-->
+                <i class="bx bxs-code"></i>
+                <h4>Frontend Development</h4>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Distinctio, provident!</p>
+            </div>
+            </div>
+
+
+
+        <div class="service-box">
+            <div class = "service-info">
+    
+                <!--To create an icon-->
+                <i class="bx bxs-code-curly"></i>
+                <h4>Backend Development</h4>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Distinctio, provident!</p>
+            </div>
+            </div>
+    </div>
+</section>
+
+<!--Now we will start contact section-->
+<section class="contact" id="contact">
+    <h2 class="heading">Contact <span>Me</span></h2>
+
+    <form action="">
+        <div class="input-group">
+            <div class="input-box">
+                <input type="text" placeholder="Full Name">
+                <input type="email" placeholder="Email">
+            </div>
+
+            <div class="input-box">
+                <input type="number" placeholder="Phone Number">
+                <input type = "text" placeholder="Subject">
+            </div>
+        </div>
+
+
+        <div class="input-group-2">
+            <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+
+            <input type = "submit" value="Send Message" class="btn">
+
+        </div>
+    </form>
+</section>
+
+<!--Now we will create a footer section-->
+<footer class="footer">
+    <div class="social-icons">
+        <a href="#">
+            <i class="bx bxl-github"></i>
+        </a>
+        <a href = "#">
+            <i class = "bx bxl-linkedin-square"></i>
+        </a>
+        <a href="#">
+            <i class="bx bxl-instagram-alt"></i>
+        </a>
+        <a href="#">
+            <i class="bx bxl-twitter"></i>
+        </a>
+    </div>
+
+    <ul class="list">
+        <li>
+            <a href="#">FAQ</a>
+        </li>
+        <li>
+            <a href="#services">Services</a>
+        </li>
+        <li>
+            <a href="#about">About Me</a>
+        </li>
+        <li>
+            <a href="#contact">Contact</a>
+        </li>
+    </ul>
+
+    <p class="copyright">
+        © Rishabh Mehrotra | All Rights Reserved
+    </p>
+</footer>
+
+
+<script src = "script.js"></script>
+    
+</body>
+</html>
